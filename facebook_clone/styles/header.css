@@ -1,0 +1,216 @@
+.header{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+height: 70px;
+margin-top: -3px;
+position: fixed;
+top: 0;
+right: 0;
+left: 0;
+border-bottom-width: 1px;
+border-bottom-style: solid;
+border-bottom-color:  rgb(182, 182, 182);
+box-shadow: 0 -6px 10px 5px rgba(0,0,0,0.3);
+background-color: white;
+}
+
+
+.left-section{
+    display: flex;
+    align-items: center;
+    width: 150px;
+    margin-left: 11px;
+
+}
+.fb-logo{
+    height: 41px;
+    margin-right: 7px;
+    cursor: pointer;
+    margin-top: -2px;
+}
+.search-bar{
+    margin-left: 3px;
+    border-width:0 ;
+    border-top-right-radius:  300px;
+    border-bottom-right-radius:  300px;
+    height: 26px;
+    background-color: rgb(240, 242, 245);
+    font-size: 14px;
+}
+
+
+.search-button{
+    display: none;
+    
+}
+.search_icon{
+    display: none;
+}
+
+.search-icon{
+    width: 17px;
+    margin-top: 3px;
+    margin-left: 9px;
+}
+.SEARCH{
+    height: 40px;
+    border-width:0 ;
+    border-radius: 300px;
+    background-color: rgb(240, 242, 245);
+
+    display: flex;
+    align-items: center;
+}
+
+.middle-section{
+    display: flex;
+
+    width: 1;
+    flex: 1;
+    max-width: 650px;
+    
+}
+
+.middle-button{
+    display: flex;
+    flex: 1;
+    max-width: 120px;
+    border-width:0 ;
+    margin-right:12px ;
+    align-items: center;
+    justify-content: space-around;
+    background-color: white;
+}
+
+.middle-button:hover{
+    border-bottom-width: 3px;
+    border-style: solid;
+    border-bottom-color: rgb(71, 71, 71);
+    cursor: pointer;
+}
+
+.home-icon{
+    width: 53px;
+    height: 48px;
+    opacity: 0.6;
+}
+.friends-icon{
+    width: 35px;
+    height: 36px;
+    opacity: 0.6;
+}
+.tv-icon{
+    width: 59px;
+    height: 48px;
+    opacity: 0.6;
+}
+.market-icon{
+    width: 70px;
+    height: 60px;
+    opacity: 0.6;
+}
+.controller-icon{
+    padding-bottom: 8px ;
+    width: 35px;
+    height: 35px;
+    opacity: 0.6;
+}
+
+
+@media (max-width:700px) {
+    .middle-section{
+        display: none;
+    }
+    
+}
+
+@media (max-width:1919px) {
+    .search-bar{
+        display: none;
+    }
+    .SEARCH{
+        height: 0px;
+        width: 0px;
+    }
+    .search-icon{
+        display: none;
+    }
+    .search-icon{
+        padding-left: 4px;
+    }
+
+    .search-button{
+        display: block;
+        width: 40px;
+        height: 40px;
+        border-width: 0;
+        border-radius: 300px;
+        padding: 0;
+        
+    }
+    .search-button:hover{
+        cursor: pointer;
+    }
+    .search_icon{
+        display: block;
+        margin:0;
+        width: 20px;
+        margin: 10px;
+    }
+
+    
+}
+
+
+.right-section{
+    display: flex;
+    align-items: center;
+    width: 200px;
+    flex-direction: row;
+    margin-right: 10px;
+    
+    
+}
+.right-button{
+    display: flex;
+    border-width:0 ;
+    border-radius:300px ;
+    margin-right:8px ;
+    width: 40px;
+    height: 40px;
+    justify-content: space-around;
+    padding: 8px;
+    background-color: rgb(206, 206, 206);
+    opacity: 0.8;
+    
+}
+.right-button:hover{
+    opacity: 1 ;
+    cursor: pointer;
+}
+
+.right-pfp-button{
+    display: flex;
+    border-width:0 ;
+    border-radius:300px ;
+    width: 40px;
+    height: 40px;
+    align-items: center;
+
+}
+
+.right-icon{
+    height: 26px;
+    
+}
+.pfp-icon{
+    height: 40px;
+    border-radius:300px;
+
+    
+}
+.pfp-icon:hover{
+    opacity: 1 ;
+    cursor: pointer;
+}
