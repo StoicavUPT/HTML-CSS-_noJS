@@ -78,7 +78,7 @@
 
 .right-button-layout{
   border-top-color:  rgb(182, 182, 182);
-  padding-top: 20px;
+  padding-top: 10px;
   margin-top: 10px;
   margin-right: 10px;
   border-width: 0;
@@ -109,3 +109,4 @@
   border-radius:300px;
   margin-right: 10px;
 }
+

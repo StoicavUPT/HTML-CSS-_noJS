@@ -1,0 +1,97 @@
+
+.background-hide{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  
+}
+
+.left{
+
+  width: 300px;
+
+}
+.right{
+
+  width: 300px;
+
+}
+
+.la-ce-te-gandesti{
+  width: 500px;
+  height: 120px;
+  max-width: 600px;
+  background-color: white;
+  padding-top: 10px;
+  padding-left:20px ;
+  padding-right:20px ;
+  border-radius: 10px;
+}
+.icon-input{
+  display: flex;
+  background-color: white;
+  align-items: center;
+  height: 50px;
+  border-width: 0;
+  border-bottom-width: 2px;
+  border-style: solid;
+  border-bottom-color: rgb(182, 182, 182);
+  padding-bottom: 5px;
+  
+
+}
+.mypfp{
+  height: 40px;
+  border-radius:300px;
+  margin-right: 10px;
+}
+.la-ce-te-input{
+  width: 430px;
+  height: 30px;
+  border-width:0 ;
+  border-radius: 300px;
+  padding-left:10px ;
+  background-color: rgb(230,230,230);
+  font-size: 16px;
+}
+.la-ce-te-buttons{
+  margin-top: 10px;
+  width: 500px;
+  display: flex;
+  justify-content: space-around;
+  
+}
+.la-ce-te-button{
+  height: 40px;
+  width:1fr;
+  font-size: 17px;
+  color:  rgb(147, 147, 148);
+  font-weight: bold;
+  background-color: white;
+  border-width: 0;
+  border-radius: 10px;
+}
+
+.la-ce-te-button:hover{
+  background-color: rgb(230, 230, 230);
+  cursor:pointer
+}
+
+
+.content-layout{
+  display: grid;
+  grid-template-columns: 1fr;
+  margin-top: 15px;
+
+}
+
+@media (max-width:1100px) {
+
+  .left-sidebar{
+    display: none;
+  }
+  .right-sidebar{
+    display: none;
+  }
+  
+}
